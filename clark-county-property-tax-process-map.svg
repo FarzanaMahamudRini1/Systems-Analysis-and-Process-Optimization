@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="auto">
+  <style>
+    .box { fill: #ffffff; stroke: #000000; stroke-width: 1; }
+    .title { font-weight: bold; font-size: 12px; text-anchor: middle; }
+    .content { font-size: 10px; }
+  </style>
+
+  <!-- Awareness & Need Recognition Phase -->
+  <rect x="50" y="50" width="250" height="150" class="box"/>
+  <text x="175" y="80" class="title">Awareness & Need Recognition Phase</text>
+  <text x="75" y="110" class="content">• Recognize tax obligation</text>
+  <text x="75" y="125" class="content">• Gather ownership documents</text>
+  <text x="75" y="140" class="content">• Explore submission channels</text>
+
+  <!-- Preparation & Decision Phase -->
+  <rect x="350" y="50" width="250" height="150" class="box"/>
+  <text x="475" y="80" class="title">Preparation & Decision Phase</text>
+  <text x="375" y="110" class="content">• Select submission method</text>
+  <text x="375" y="125" class="content">• Collect assessment docs</text>
+  <text x="375" y="140" class="content">• Verify tax eligibility</text>
+
+  <!-- Application & Submission Phase -->
+  <rect x="650" y="50" width="250" height="150" class="box"/>
+  <text x="775" y="80" class="title">Application & Submission Phase</text>
+  <text x="675" y="110" class="content">• Complete tax form</text>
+  <text x="675" y="125" class="content">• Choose submission channel</text>
+  <text x="675" y="140" class="content">• Attach required documents</text>
+
+  <!-- Processing & Verification Phase -->
+  <rect x="950" y="50" width="250" height="150" class="box"/>
+  <text x="1075" y="80" class="title">Processing & Verification Phase</text>
+  <text x="975" y="110" class="content">• Receive submission receipt</text>
+  <text x="975" y="125" class="content">• Initial document screening</text>
+  <text x="975" y="140" class="content">• Request additional info</text>
+
+  <!-- Feedback & Follow-Up Phase -->
+  <rect x="50" y="250" width="250" height="150" class="box"/>
+  <text x="175" y="280" class="title">Feedback & Follow-Up Phase</text>
+  <text x="75" y="310" class="content">• Provide service feedback</text>
+  <text x="75" y="325" class="content">• Request corrections</text>
+  <text x="75" y="340" class="content">• Prepare future interactions</text>
+
+  <!-- Result & Service Delivery Phase -->
+  <rect x="350" y="250" width="250" height="150" class="box"/>
+  <text x="475" y="280" class="title">Result & Service Delivery Phase</text>
+  <text x="375" y="310" class="content">• Receive tax assessment</text>
+  <text x="375" y="325" class="content">• Obtain tax documents</text>
+  <text x="375" y="340" class="content">• Confirm tax liability</text>
+
+  <!-- Payment & Approval Phase -->
+  <rect x="650" y="250" width="250" height="150" class="box"/>
+  <text x="775" y="280" class="title">Payment & Approval Phase</text>
+  <text x="675" y="310" class="content">• Complete tax payment</text>
+  <text x="675" y="325" class="content">• Get payment confirmation</text>
+  <text x="675" y="340" class="content">• Obtain tax clearance</text>
+
+  <!-- Arrows connecting phases -->
+  <path d="M300,125 L350,125" fill="none" stroke="black" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <path d="M600,125 L650,125" fill="none" stroke="black" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <path d="M900,125 L950,125" fill="none" stroke="black" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <path d="M300,325 L350,325" fill="none" stroke="black" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <path d="M600,325 L650,325" fill="none" stroke="black" stroke-width="1" marker-end="url(#arrowhead)"/>
+
+  <!-- Arrowhead marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="black"/>
+    </marker>
+  </defs>
+</svg>
